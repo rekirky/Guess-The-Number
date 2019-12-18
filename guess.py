@@ -13,7 +13,7 @@ while guess != hidden:
     guess = int(input("The random number is between 1 & 200. Please enter your guess: "))
     steps = steps + 1
     if guess == hidden:
-        print("Hit! " + str(hidden) + ". You took " + str(steps) + " attempts")
+        input("Hit! " + str(hidden) + ". You took " + str(steps) + " attempts")
     elif guess < hidden:
         print("Your guess is too low")
     else:
